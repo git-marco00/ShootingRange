@@ -1,0 +1,454 @@
+.image {
+    width: 371px;
+    height: 200px;
+    margin-left:auto;
+    margin-right:auto;
+    border-radius:20%;
+    border:2px  red;
+    /*float: left;*/
+}
+
+#imgClose{
+    cursor: pointer;
+    float:left;
+    margin-left: 40px;
+    height:50px;
+    width:60px;
+    margin-top:30px;
+}
+#imgCloseLogin{
+    cursor: pointer;
+    float:left;
+    margin-left: 20px;
+    height:15px;
+    width:20px;
+    margin-top:20px;
+}
+#imgCloseSignUp{
+    cursor: pointer;
+    float:left;
+    margin-left: 20px;
+    height:15px;
+    width:20px;
+    margin-top:20px;
+}
+#imgClose:hover{
+    transition-duration: 0s;
+    transform: scale(1.1);
+}
+
+#imgClose:active {
+    background-color:rgb(107, 167, 52); ;
+    box-shadow: 0 5px #666;
+    transform: translateY(4px);
+  }
+#imgCloseLogin:hover{
+    transition-duration: 0s;
+    transform: scale(1.1);
+}
+
+#imgCloseLogin:active {
+    background-color:rgb(107, 167, 52); ;
+    box-shadow: 0 5px #666;
+    transform: translateY(4px);
+  }
+  #imgCloseSignUp:hover{
+    transition-duration: 0s;
+    transform: scale(1.1);
+}
+#imgCloseSignUp:active {
+    background-color:rgb(107, 167, 52); ;
+    box-shadow: 0 5px #666;
+    transform: translateY(4px);
+  }
+#infoDiv{
+    position:absolute;
+    margin-top: -400px;
+    margin-bottom: auto;
+    left:28%;
+    margin-right: auto;
+    height:560px;
+    width: 800px;
+    border:2px solid black;
+    border-radius: 10%;
+    font-family:"Courier New";
+    background-color: rgb(134, 196, 77);
+    color:black;
+    font-size: 30px;
+    font-weight: bold;
+    text-align:center;
+    box-shadow: 10px 10px;
+    visibility:hidden;
+    opacity:90%;
+}
+#infoPrecision{
+    width:40px;
+    height:40px;
+    float:left;
+    cursor: pointer;
+    margin-top:25%;
+    margin-left:8%;
+    background-color: transparent;
+}
+#infoPrecision:hover{
+    transform:scale(1.2);
+    transition-duration: 0.4s;
+}
+#infoReflex{
+    width:40px;
+    height:40px;
+    cursor: pointer;
+    float:left;
+    margin-top:25%;
+    margin-left:8%;
+}
+#infoReflex:hover{
+    transform:scale(1.2);
+    transition-duration: 0.4s;
+}
+#infoTracking{
+    width:40px;
+    height:40px;
+    float:right;
+    cursor: pointer;
+    margin-top:25%;
+    margin-right:8%;
+}
+#infoTracking:hover{
+    transform:scale(1.2);
+    transition-duration: 0.4s;
+}
+#infoMoving{
+    width:40px;
+    height:40px;
+    float:right;
+    cursor: pointer;
+    margin-top:25%;
+    margin-right:8%;
+}
+#infoMoving:hover{
+    transform:scale(1.2);
+    transition-duration: 0.4s;
+}
+#wrapper {
+    margin: 10px;
+    width: auto;
+    height: auto; 
+    background:linear-gradient(50deg, rgb(44, 100, 173) 10%, rgb(5, 4, 49) 80%);
+    color:rgba(245, 245, 245, 0.986);
+    opacity:95%;
+}
+blockquote{
+    font-family:"Courier New";
+    font-size: 20px;
+}
+h1 {
+    text-align: center;
+    font-family:"lucida console";
+    font-size: 80px;
+    text-shadow: #FC0 1px 0 10px;
+}
+#gameWrapper1{
+    position:relative;
+    float:left;
+    height:auto;
+    width:30%;
+    margin-left: 12%;
+    margin-bottom:50px;
+    margin-top:10px;
+    /*border: 2px solid black;*/
+}
+#gameWrapper2{
+    position:relative;
+    float:right;
+    height:auto;
+    width:30%;
+    margin-right: 12%;
+    margin-bottom:50px;
+    margin-top:10px; 
+    /*border: 2px solid black;*/
+}
+#Precision{
+    float:left;
+    margin-bottom:30px;
+    /*border: 2px solid black;*/
+}
+#Reflex{
+    float:left;
+    
+}
+#TargetTracking{
+    float:right;
+    margin-bottom:30px;
+    
+}
+#MovingTargets{
+    float:right;
+}
+h2 {
+    text-align: center;
+    font-family:"lucida console";
+    font-size: 25px;
+    text-shadow: #FC0 1px 0 10px;
+}
+.imgWrapper{
+    /*border: 2px solid black;*/
+    height:auto;
+    width:auto;
+    height:auto;
+}
+.imgWrapper:hover{
+    transition-duration: 0.4s;
+    transform: scale(1.1);
+    height:auto;
+    width:auto;
+}
+a{
+    color:rgb(0, 255, 234);
+    text-shadow: #FC0 1px 0 10px;
+}
+a:link {
+    text-decoration: none;
+}
+a:hover {
+    text-decoration:underline;
+}
+#wrapper1{
+    width:auto;
+    height:auto;
+}
+#navBar{
+    height:auto;
+    width:auto; 
+}
+#signUp, #login, #logout{
+    margin-top:5px;
+    cursor: pointer;
+    float:right;
+    color:mediumblue;
+    height:30px;
+    font-family:"lucida console";
+    width:80px;
+    background-color: white;
+    text-shadow: #FC0 1px 0 10px;
+    box-shadow: #FC0 1px 0 10px;
+    display:block;
+    border-radius: 20%;
+}
+#login:active {
+    transform: translateY(4px);
+}
+#signUp:active {
+    transform: translateY(4px);
+}
+#logout:active {
+    transform: translateY(4px);
+}
+#loginDiv{
+    height:300px;
+    width:400px;
+    right:50%;
+    margin-right:-200px;
+    position:fixed;
+    border:2px solid black;
+    text-align: center;
+    color:black;
+    font-family:"lucida console";
+    font-size: 20px;
+    background-color: mistyrose;
+    cursor:default;
+    border-radius: 10%;
+    visibility: hidden;
+    z-index: 2;
+}
+#signUpDiv{
+    height:430px;
+    width:400px;
+    right:50%;
+    margin-right:-200px;
+    position:fixed;
+    border:2px solid black;
+    text-align: center;
+    color:black;
+    font-family:"lucida console";
+    font-size: 30px;
+    background-color: mistyrose;
+    cursor:default;
+    visibility:hidden;
+    border-radius: 10%;
+    z-index: 2;
+}
+#id1 {
+    font-family:"lucida console";
+    font-size: 30px;
+}
+h{
+    font-size:35px;
+    font-weight: bold;
+    text-shadow: #FC0 1px 0 10px;
+}
+.formButton{
+    width:80%;
+    height:45px;
+    font-size:20px;
+    background-color: violet;
+}
+.input{
+    width:60%;
+    height:20px;
+    font-size:15px;
+}
+.psw{
+    font-size:15px;
+    float:right;
+    margin-top:10%;
+    margin-right:7%;
+}
+.formMessage{
+    font-size: 15px;
+    font-weight:lighter;
+    font-family:"lucida console";
+    display:inline-block;
+    text-shadow: #FC0 1px 0 10px;
+}
+#logoutForm{
+    margin-top:5px;
+    float:right;
+    color:mediumblue;
+    height:30px;
+    font-family:"lucida console";
+    width:80px;
+    /*background-color: white;
+    text-shadow: #FC0 1px 0 10px;
+    box-shadow: #FC0 1px 0 10px;*/
+    display:block;
+}
+.signuperror, .loginerror{
+    font-size:20px;
+    color:red;
+    font-family:"lucida console";
+    margin-left:44%;
+    margin-top:-1%;
+    position:absolute;
+    text-align: center;
+}
+.loginsuccess, .signupsuccess{
+    font-size:20px;
+    position:absolute;
+    margin-top:-1%;
+    margin-left:42%;
+    color:green;
+    font-family:"lucida console";
+    text-align: center;
+}
+#wrapper2{
+    height:600px;
+    width:auto;
+}
+#charts{
+    height:800px;
+    width:auto;
+    margin-top:70px;
+}
+#precisionTable{
+    border:2px solid black;
+    height:auto;
+    width:450px;
+    float:left;
+    margin-left:25%;
+}
+#reflexTable{
+    margin-top:50px;
+    border:2px solid black;
+    height:auto;
+    width:450px;
+    float:left;
+    margin-left:25%;
+}
+#trackingTable{
+    border:2px solid black;
+    height:auto;
+    width:450px;
+    float:right;
+    margin-right:25%;
+}
+#movingTable{
+    margin-top:50px;
+    border:2px solid black;
+    height:auto;
+    width:450px;
+    float:right;
+    margin-right:25%;
+}
+td,th,table{
+    border:1px solid black;
+    font-size: 25px;
+    font-family:"lucida console";
+    border-collapse:collapse;
+}
+
+.thead{
+    line-height: 80px;
+    background-color:rgb(228, 150, 5);
+    color:white;
+    text-shadow: #FC0 1px 0 10px;
+}
+td{
+    line-height:30px;
+}
+.titoloClass{
+    line-height:50px;
+    background-color:rgb(117, 85, 25);
+}
+tr:nth-of-type(2n){
+    background-color: rgba(104, 103, 20, 0.877);
+}
+td:nth-of-type(1){
+    text-align: center;
+}
+td:nth-of-type(3){
+    text-align: center;
+}
+td:nth-of-type(2){
+    text-align: left;
+    padding-left:5px;
+}
+
+#charts1{
+    height:auto;
+    width:30%;
+    float:left;
+
+}
+#charts2{
+    height:auto;
+    width:30%;
+    float:right;
+
+}
+.Title{
+    text-align:center;
+    font-size:50px;
+    text-shadow: #FC0 1px 0 10px;
+    font-weight:bold;
+}
+.formTitle{
+    font-size:30px;
+    color:black;
+    text-shadow: #FC0 1px 0 10px;
+    font-weight:bold;
+}
+@media screen and (max-width: 1400px) {
+    .image{
+        width: 270px;
+        height: 150px;
+    }
+    #trackingTable, #reflexTable, #movingTable, #precisionTable{
+        transform:scale(0.7);
+    }
+    #infoDiv{
+        margin-left:-10%;
+        margin-top:-37%;
+        transform:scale(0.7);
+    }
+}
