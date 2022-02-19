@@ -1,0 +1,19 @@
+h{
+    font-size:50px;
+    text-shadow: #FC0 1px 0 10px;
+    font-family:"lucida console";
+}
+p{
+    font-family:"lucida console";
+    font-size:20px;
+
+}
+button{
+    height:40px;
+    width:100px;
+    font-size:25px;
+}
+body{
+    background:linear-gradient(50deg, rgb(44, 100, 173) 10%, rgb(5, 4, 49) 80%);
+    color:rgba(245, 245, 245, 0.986);
+}
