@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Reflex</title>
+    <script src="../js/reflex.js" defer></script>
+    <script src="../js/ajax_reflex.js" defer></script>
+    <link rel="icon" href="../others/SR.png">
+    <link rel="stylesheet" href="../css/stylereflex.css">
+    <script src="//ajax.googleapis.com/ajax/libs/jquery/2.0.0/jquery.min.js"></script>
+</head>
+
+<body id=container onload=beginScript2()>
+    <audio id="clickSound">
+        <source src="../others/hitsound.wav" type="audio/wav">
+    </audio>
+    <audio id="failSound">
+        <source src="../others/failsound.wav" type="audio/wav">
+    </audio>
+        <div id=wrapper>
+            <a href="../index.php"><img src="../others/home.png" alt="background image" id=img></a>
+            <div id=timerWrapper>Timer:
+                <p id=timer></p>
+            </div>
+            <div id=pointsWrapper> Points:
+                <p id=points>0</p>
+            </div>
+        </div>
+        <div id=gameWrapper>
+            <div id=report>
+                <p id=stats>Statistiche:</p> 
+                <p id=stats0></p>
+                <p id=stats1></p>
+                <p id=stats2></p>
+                <p id=stats3></p>
+            </div>
+            <div id=countDownWrapper>3</div>
+        </div>
+        <button id="restart">RESTART</button>
+        <button id="termina">END</button>
+</body>
+</html>
